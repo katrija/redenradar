@@ -1,6 +1,6 @@
 # redenradar
 
-This repository contains data and jupyter notebooks used in the project "redenradar" which I completed together with a group as part of the [TechLabs Digital Shaper Program]([https://link-url-here.org](https://www.techlabs.org/digital-shaper-program) on Deep Learning (Winter 2024/25). 
+This repository contains data and jupyter notebooks used in the project "redenradar" which I completed together with a group as part of the [TechLabs Digital Shaper Program](https://www.techlabs.org/digital-shaper-program) on Deep Learning (Winter 2024/25). 
 
 The idea of the project was to use a Large Language Model (LLM), in our case, GottBERT (Scheible et al, 2024), to predict the party affiliation of speakers in the German Bundestag. Speeches were obtained from the plenary minutes accessible via the [Open Data Service of the German Bundestag](https://www.bundestag.de/services/opendata). In initial steps, we cleaned the data (e.g., special characters were removed) and performed some preprocessing (e.g., party names were removed from the speeches, equal representation of parties was ensured via upsampling). We divided the data into a training, validation and test set (training: years 2020 - 2021, validation: year 2023, test: years 2024-2025), and used the transformers and PyTorch modules for tokenization and training.
 
